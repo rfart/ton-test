@@ -1,0 +1,23 @@
+{
+  "name": "ton-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "npx ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "yarn": "^1.22.21"
+  },
+  "dependencies": {
+    "@orbs-network/ton-access": "^2.3.3",
+    "dotenv": "^16.4.5",
+    "ton": "^13.9.0",
+    "ton-core": "^0.53.0",
+    "ton-crypto": "^3.2.0"
+  }
+}
